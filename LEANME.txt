@@ -1,0 +1,29 @@
+1.- INSTALAR XAMP PARA USAR LA BASE DE DATOS.
+https://www.apachefriends.org/es/download.html
+
+2.- INSTALAR NETBEANS 
+https://netbeans.apache.org/download/index.html
+
+
+3.- Abrir nte beans e importar el .java sistema venta 
+
+4.- Aparecera un error , hacer click derecho en sistema venta y presionar la 
+penultima opcion del menu (resolve problem...) y en la ventana emergente hacer click en resolve
+y buscar dentro del zip la carpeta librerias y seleccionar jcommon y eso resolveria el error.
+
+5.- Abrir el XAMPP y darle a Start a Mysql y Apache
+
+6.- en Mysql darle click a admin, les abrira una ventana del navegador. En esta ventana al lado izquierdo
+hacer click en nueva para crear una nueva base de datos. colocarle el nombre de "factura" (sin la comillas) y
+darle a continuar. 
+
+7.-En la parte superior hacer click en importar y le daremos luego a select file, posteriormente buscamos
+la ubicacion en la que se extrajo el .zip y seleccionamos el archivo venta.sql y le damos a importar
+
+8.- hasta este punto ya podrias ejecutar el programa.
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+En caso el  XAMPP mande un error al momento de darle a start solo hay que abrir el buscador de windows buscar
+"servicios" abrirlo y buscar "MySQL80" darle click derecho y detener.
+
